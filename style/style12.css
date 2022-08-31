@@ -7,14 +7,34 @@ CORES:
 */
 @charset "UTF-8";
 
-header{
-    background-color:blue;
+
+header#titulo{
+    text-align: center;
+    background-color: #7A5A38;
+}
+header>h1{
+    color: black;
+    font-size: 1.7em;
+}
+header>a{
+    text-decoration: none;
+    color: black;
 }
 
 main{
-    background-color: aquamarine;
+    background-color: #C79C6F;
+    
+}
+p.email{
+    background: white url('../img/email.jpg') center no-repeat fixed;
+    background-size: cover;
+}
+p.carta{
+    background: white url('../img/cartas.jpg') center no-repeat fixed;
+    background-size: cover;
 }
 
 footer{
-    background-color: blueviolet;
+    text-align: center;
+    background-color: #7A5A38;
 }
