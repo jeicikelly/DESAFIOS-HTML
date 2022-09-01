@@ -36,7 +36,7 @@ header#titulo{
 }
 header>h1{
     color: black;
-    font-size: 8vw;
+    font-size: 7.8vw;
     padding-top: 50px;
     font-family: RubikDirt;
     font-variant: small-caps;
@@ -63,10 +63,10 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 30px;
+    padding-left: 50px;
     font-family: BadScript;
     font-weight: bolder;
-    font-size: 1.2em;
+    font-size: 3vw;
 }
 section.normal{
     background-color: white;
@@ -74,11 +74,26 @@ section.normal{
 section.img{
     background-color: #2C667A;
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.671);
+}
+section#img01{
+    background-image: url('../img/email.jpg');
+    background-position: center center;
+}
+section#img02{
+    background-image: url('../img/cartas.jpg');
+    background-position: left center;
 }
 section.img>p{
     display: inline-block;
     padding: 5px;
-    background-color: #1b3d494f;
+    background-color: rgba(0, 0, 0, 0.507);
+    text-shadow: 1.5px 1.5px 0 black;
+}
+section>p{
+    padding-bottom: 2em;
 }
 
 footer{
