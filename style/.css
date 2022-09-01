@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'android';
-    src: url('../fontes/IDroid.otf') format('OpenType');
+    src: url('../fontes/IDroid/IDroid.otf') format('OpenType');
     font-weight: normal;
 }
 
@@ -19,7 +19,7 @@ GRA: < 1000px; MED: 1000px - 820px; PEQ: 820px >  */
 
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: 'android', cursive;
+    --fonte-android: android, cursive;
 }
 
 *{
